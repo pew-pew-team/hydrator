@@ -19,6 +19,7 @@ final readonly class LoggableHydrator implements HydratorInterface
     public function hydrate(string $type, mixed $data): mixed
     {
         try {
+            /** @var mixed $result */
             $result = $this->hydrator->hydrate($type, $data);
 
             $this->logger->debug('Hydration {type}', [
@@ -36,6 +37,7 @@ final readonly class LoggableHydrator implements HydratorInterface
             throw $e;
         }
 
+        /** @psalm-suppress MixedReturnStatement */
         return $result;
     }
 }

@@ -21,6 +21,7 @@ final readonly class TraceableHydrator implements HydratorInterface
         $event = $this->stopwatch->start("Hydrate $type", 'hydrator');
 
         try {
+            /** @var mixed $result */
             $result = $this->hydrator->hydrate($type, $data);
         } catch (\Throwable $e) {
             $event->stop();
@@ -30,6 +31,7 @@ final readonly class TraceableHydrator implements HydratorInterface
 
         $event->stop();
 
+        /** @psalm-suppress MixedReturnStatement */
         return $result;
     }
 }

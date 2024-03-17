@@ -19,6 +19,7 @@ final readonly class LoggableExtractor implements ExtractorInterface
     public function extract(mixed $data): mixed
     {
         try {
+            /** @var mixed $result */
             $result = $this->extractor->extract($data);
 
             $this->logger->debug('Extraction {type}', [

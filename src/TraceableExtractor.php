@@ -22,6 +22,7 @@ final readonly class TraceableExtractor implements ExtractorInterface
         $event = $this->stopwatch->start("Extract $type", 'hydrator');
 
         try {
+            /** @var mixed $result */
             $result = $this->extractor->extract($data);
         } catch (\Throwable $e) {
             $event->stop();
