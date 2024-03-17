@@ -6,7 +6,7 @@
     <a href="https://packagist.org/packages/pew-pew/hydrator"><img src="https://poser.pugx.org/pew-pew/hydrator/require/php?style=for-the-badge" alt="PHP 8.3+"></a>
     <a href="https://packagist.org/packages/pew-pew/hydrator"><img src="https://poser.pugx.org/pew-pew/hydrator/version?style=for-the-badge" alt="Latest Stable Version"></a>
     <a href="https://packagist.org/packages/pew-pew/hydrator"><img src="https://poser.pugx.org/pew-pew/hydrator/v/unstable?style=for-the-badge" alt="Latest Unstable Version"></a>
-    <a href="https://raw.githubusercontent.com/pew-pew-team/map/blob/master/LICENSE"><img src="https://poser.pugx.org/pew-pew/hydrator/license?style=for-the-badge" alt="License MIT"></a>
+    <a href="https://raw.githubusercontent.com/pew-pew-team/hydrator/blob/master/LICENSE"><img src="https://poser.pugx.org/pew-pew/hydrator/license?style=for-the-badge" alt="License MIT"></a>
 </p>
 <p align="center">
     <a href="https://github.com/pew-pew-team/hydrator/actions"><img src="https://github.com/pew-pew-team/hydrator/workflows/tests/badge.svg"></a>
